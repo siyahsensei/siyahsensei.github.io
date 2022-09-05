@@ -23,7 +23,6 @@ body {
     height: 535px;
     overflow: auto;
     margin: auto;
-    position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
@@ -33,7 +32,21 @@ body {
     border-radius: 2vh;
 }
 
-.box-center.fixed {
+.box-under-nav-1 {
+    width: 99px;
+    height: 56px;
+    overflow: auto;
+    margin: auto;
+    top: 600px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: '';
+    box-shadow: inset 0 0 0 100vh rgba(255, 255, 255, 0.1);
+    border-radius: 1vh;
+}
+
+.fixed {
     position: fixed;
     z-index: 999;
 }
@@ -62,4 +75,15 @@ body {
 
 img {
     height: 30px;
+}
+
+.button {
+    border: none;
+    color: rgb(194, 194, 194);
+    padding: 14px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    cursor: pointer;
 }
