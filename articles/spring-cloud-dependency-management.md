@@ -16,7 +16,7 @@ Bunun için de yine ortak bir çözüm düşünülmüş: **Spring Cloud Dependen
 
 ## Uyumluluklar
 Aşağıdaki tabloda Spring Boot versiyonuna göre hangi Spring Cloud versiyonu uyumlu onu görebiliriz.
-![spring-cloud-version](https://raw.githubusercontent.com/karasensei/karasensei.github.io/main/spring-cloud-version.png)
+![spring-cloud-version](https://raw.githubusercontent.com/karasensei/karasensei.github.io/main/articles/spring-cloud-version.png)
 Spring Cloud versiyonları da geriye dönük uyumlu bir şekilde kendi içerisinde Hoxton.SR1, Hoxton.SR2 vb. gibi versiyonlar olarak bulunabiliyorlar. Fakat Spring Boot versiyonu için genel hatlar tablodaki gibidir. Tabloda bazı ufak kafa karıştırıcı şeyler var.
 
 Bu karışıklıkların açıklamaları ise şöyle:
