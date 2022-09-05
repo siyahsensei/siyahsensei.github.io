@@ -44,6 +44,7 @@ body {
     content: '';
     box-shadow: inset 0 0 0 100vh rgba(255, 255, 255, 0.1);
     border-radius: 1vh;
+    visibility: hidden;
 }
 
 .fixed {
